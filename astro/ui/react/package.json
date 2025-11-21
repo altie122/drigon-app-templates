@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@astrojs/react": "{LATEST}",
+    "react": "{@astrojs/react:DEPEND}",
+    "react-dom": "{@astrojs/react:DEPEND}"
+  },
+  "devdependencies": {
+    "@types/react": "{@astrojs/react:DEPEND}",
+    "@types/react-dom": "{@astrojs/react:DEPEND}"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@astrojs/preact": "{LATEST}",
+    "preact": "{@astrojs/preact:DEPEND}"
+  }
+}

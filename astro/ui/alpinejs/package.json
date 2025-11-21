@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@astrojs/vue": "{LATEST}",
+    "vue": "{@astrojs/vue:DEPEND}"
+  }
+}

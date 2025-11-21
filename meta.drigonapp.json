@@ -1,0 +1,59 @@
+{
+  "options": [
+    {
+      "name": "Astro",
+      "path": "/astro",
+      "options": [
+        {"ui-frameworks": {
+          "name": "UI Frameworks",
+          "path": "/ui",
+          "options": [
+            {"alpinejs": {
+              "name": "Alpine.js",
+              "install": {
+                "command":"astro add aplinejs",
+                "file": "/alpinejs"
+              }
+            }},
+            {
+              "preact": {
+                "name": "Preact",
+                "install": {
+                "command":"astro add preact",
+                "file": "/preact"
+              }
+              }
+            },
+            {
+              "react": {
+                "name": "React",
+                "install": {
+                "command":"astro add react",
+                "file": "/react"
+              }
+              }
+            },
+          {
+            "solid": {
+              "name": "SolidJS",
+              "install": "command:astro add solid"
+            }
+          },
+          {
+            "svelte": {
+              "name": "Svelte",
+              "install": "command:astro add svelte"
+            }
+          },
+          {
+            "vue": {
+              "name": "Vue",
+              "install": "command:astro add vue"
+            }
+          }
+          ]
+        }}
+      ]
+    }
+  ]
+}
