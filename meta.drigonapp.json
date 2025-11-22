@@ -10,6 +10,7 @@
           "name": "Official | UI Frameworks",
           "path": "ui",
           "optional": true,
+          "multiple": true,
           "options": [
             {
               "id": "alpinejs",
@@ -48,6 +49,7 @@
           "name": "Official | Adapters",
           "path": "adapters",
           "optional": true,
+          "multiple": false,
           "options": [
             {
               "id": "cloudflare",
@@ -76,6 +78,7 @@
           "name": "Data Storage",
           "path": "data-storage",
           "optional": true,
+          "multiple": true,
           "options": [
             {
               "id": "astrodb",
@@ -85,7 +88,55 @@
             {
               "id": "convex",
               "name": "Convex",
+              "dependencies": ["react"],
               "path": "convex"
+            }
+          ]
+        },
+        {
+          "id": "content-writing",
+          "name": "Content Writing",
+          "path": "content-writing",
+          "optional": true,
+          "multiple": true,
+          "options": [
+            {
+              "id": "markdoc",
+              "name": "Markdoc | Official",
+              "path": "markdoc"
+            },
+            {
+              "id": "mdx",
+              "name": "MDX | Official",
+              "path": "mdx"
+            }
+          ]
+        },
+        {
+          "id": "optimization",
+          "name": "Optimization",
+          "path": "optimization",
+          "optional": true,
+          "multiple": true,
+          "options": [
+            {
+              "id": "partytown",
+              "name": "Partytown | Official",
+              "path": "partytown"
+            }
+          ]
+        },
+        {
+          "id": "sso",
+          "name": "SSO",
+          "path": "sso",
+          "optional": true,
+          "multiple": true,
+          "options": [
+            {
+              "id": "sitemap",
+              "name": "Sitemap | Official",
+              "path": "sitemap"
             }
           ]
         }

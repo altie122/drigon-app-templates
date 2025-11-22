@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import solidJs from '@astrojs/solid-js';"
+  ],
+  "config": {
+    "integrations": ["solidJs()"]
+  }
+}

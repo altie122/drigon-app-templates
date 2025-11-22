@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import partytown from '@astrojs/partytown';"
+  ],
+  "config": {
+    "integrations": ["partytown()"]
+  }
+}

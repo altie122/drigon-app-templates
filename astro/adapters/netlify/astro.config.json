@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import netlify from '@astrojs/netlify';"
+  ],
+  "config": {
+    "adapter": "netlify()"
+  }
+}

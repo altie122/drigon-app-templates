@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import mdx from '@astrojs/mdx';"
+  ],
+  "config": {
+    "integrations": ["mdx()"]
+  }
+}

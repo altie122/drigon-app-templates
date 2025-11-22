@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import node from '@astrojs/node';"
+  ],
+  "config": {
+    "adapter": "node({mode: 'standalone'})"
+  }
+}

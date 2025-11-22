@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@astrojs/markdoc": "^0.15.9"
+  }
+}

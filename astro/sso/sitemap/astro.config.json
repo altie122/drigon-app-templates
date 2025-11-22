@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import sitemap from '@astrojs/sitemap';"
+  ],
+  "config": {
+    "integrations": ["sitemap()"]
+  }
+}

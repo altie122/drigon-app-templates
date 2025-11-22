@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "run-p -r dev:*",
+    "predev": "convex dev --until-success",
+    "dev:astro": "astro dev",
+    "dev:convex": "convex dev"
+  },
+  "dependencies": {
+    "convex": "^1.29.3"
+  },
+  "devDependencies": {
+    "npm-run-all2": "^8.0.4"
+  }
+}

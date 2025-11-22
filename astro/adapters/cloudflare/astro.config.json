@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import cloudflare from '@astrojs/cloudflare';"
+  ],
+  "config": {
+    "adapter": "cloudflare()"
+  }
+}

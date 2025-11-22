@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import db from '@astrojs/db';"
+  ],
+  "config": {
+    "integrations": ["db()"]
+  }
+}
