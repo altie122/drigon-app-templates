@@ -3,6 +3,6 @@
     "import svelte from '@astrojs/svelte';"
   ],
   "config": {
-    "integrations": ["svelte()"]
+    "integrations": [{ "$expr": "svelte()" }]
   }
 }

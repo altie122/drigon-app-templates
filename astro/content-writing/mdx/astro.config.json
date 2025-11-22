@@ -3,6 +3,6 @@
     "import mdx from '@astrojs/mdx';"
   ],
   "config": {
-    "integrations": ["mdx()"]
+    "integrations": [{ "$expr": "mdx()" }]
   }
 }

@@ -3,6 +3,6 @@
     "import markdoc from '@astrojs/markdoc';"
   ],
   "config": {
-    "integrations": ["markdoc()"]
+    "integrations": [{ "$expr": "markdoc()" }]
   }
 }

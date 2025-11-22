@@ -1,8 +1,8 @@
 {
-  "imports": [
-    "import vercel from '@astrojs/vercel';"
-  ],
+  "imports": ["import vercel from '@astrojs/vercel';"],
   "config": {
-    "adapter": "vercel()"
+    "adapter": {
+      "$expr": "vercel()"
+    }
   }
 }

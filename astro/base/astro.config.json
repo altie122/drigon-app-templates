@@ -7,7 +7,6 @@
     "import { defineConfig } from 'astro/config';"
   ],
   "config": {
-    "site": "https://example.com",
-    "integrations": []
+    "site": "https://example.com"
   }
 }

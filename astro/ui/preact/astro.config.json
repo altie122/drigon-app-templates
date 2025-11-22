@@ -3,6 +3,6 @@
     "import preact from '@astrojs/preact';"
   ],
   "config": {
-    "integrations": ["preact()"]
+    "integrations": [{ "$expr": "preact()" }]
   }
 }

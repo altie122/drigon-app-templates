@@ -1,8 +1,8 @@
 {
-  "imports": [
-    "import node from '@astrojs/node';"
-  ],
+  "imports": ["import node from '@astrojs/node';"],
   "config": {
-    "adapter": "node({mode: 'standalone'})"
+    "adapter": {
+      "$expr": "node({mode: 'standalone'})"
+    }
   }
 }

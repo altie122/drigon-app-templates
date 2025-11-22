@@ -3,6 +3,6 @@
     "import db from '@astrojs/db';"
   ],
   "config": {
-    "integrations": ["db()"]
+    "integrations": [{ "$expr": "db()" }]
   }
 }

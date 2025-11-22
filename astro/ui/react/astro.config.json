@@ -1,8 +1,6 @@
 {
-  "imports": [
-    "import react from '@astrojs/react';"
-  ],
+  "imports": ["import react from '@astrojs/react';"],
   "config": {
-    "integrations": ["react()"]
+    "integrations": [{ "$expr": "react()" }]
   }
 }

@@ -1,10 +1,12 @@
 {
-  "imports": [
-    "import { envField } from 'astro/config';"
-  ],
-  "env": {
-    "schema": {
-      "CONVEX_URL": "envField.string({access: 'public', context: 'client'})"
+  "imports": ["import { envField } from 'astro/config';"],
+  "config": {
+    "env": {
+      "schema": {
+        "CONVEX_URL": {
+          "$expr": "envField.string({ access: 'public', context: 'client' })"
+        }
+      }
     }
   }
 }
