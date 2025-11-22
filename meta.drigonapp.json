@@ -2,6 +2,7 @@
   "options": [
     {
       "id": "astro",
+      "handler": "astro",
       "name": "Astro",
       "path": "astro",
       "options": [
