@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@astrojs/preact": "{LATEST}",
-    "preact": "{@astrojs/preact:DEPEND}"
+    "@astrojs/preact": "^4.1.3",
+    "preact": "^10.27.2"
   }
 }
