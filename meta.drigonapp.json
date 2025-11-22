@@ -1,58 +1,94 @@
 {
   "options": [
     {
+      "id": "astro",
       "name": "Astro",
-      "path": "/astro",
+      "path": "astro",
       "options": [
-        {"ui-frameworks": {
-          "name": "UI Frameworks",
-          "path": "/ui",
+        {
+          "id": "ui-frameworks",
+          "name": "Official | UI Frameworks",
+          "path": "ui",
+          "optional": true,
           "options": [
-            {"alpinejs": {
+            {
+              "id": "alpinejs",
               "name": "Alpine.js",
-              "install": {
-                "command":"astro add aplinejs",
-                "file": "/alpinejs"
-              }
-            }},
-            {
-              "preact": {
-                "name": "Preact",
-                "install": {
-                "command":"astro add preact",
-                "file": "/preact"
-              }
-              }
+              "path": "alpinejs"
             },
             {
-              "react": {
-                "name": "React",
-                "install": {
-                "command":"astro add react",
-                "file": "/react"
-              }
-              }
+              "id": "preact",
+              "name": "Preact",
+              "path": "preact"
             },
-          {
-            "solid": {
+            {
+              "id": "react",
+              "name": "React",
+              "path": "react"
+            },
+            {
+              "id": "solid",
               "name": "SolidJS",
-              "install": "command:astro add solid"
-            }
-          },
-          {
-            "svelte": {
+              "path": "solid"
+            },
+            {
+              "id": "svelte",
               "name": "Svelte",
-              "install": "command:astro add svelte"
-            }
-          },
-          {
-            "vue": {
+              "path": "svelte"
+            },
+            {
+              "id": "vue",
               "name": "Vue",
-              "install": "command:astro add vue"
+              "path": "vue"
             }
-          }
           ]
-        }}
+        },
+        {
+          "id": "adapters",
+          "name": "Official | Adapters",
+          "path": "adapters",
+          "optional": true,
+          "options": [
+            {
+              "id": "cloudflare",
+              "name": "Cloudflare",
+              "path": "cloudflare"
+            },
+            {
+              "id": "netlify",
+              "name": "Netlify",
+              "path": "netlify"
+            },
+            {
+              "id": "vercel",
+              "name": "Vercel",
+              "path": "vercel"
+            },
+            {
+              "id": "node",
+              "name": "Node",
+              "path": "node"
+            }
+          ]
+        },
+        {
+          "id": "data-storage",
+          "name": "Data Storage",
+          "path": "data-storage",
+          "optional": true,
+          "options": [
+            {
+              "id": "astrodb",
+              "name": "Astro DB | Official",
+              "path": "astrodb"
+            },
+            {
+              "id": "convex",
+              "name": "Convex",
+              "path": "convex"
+            }
+          ]
+        }
       ]
     }
   ]
