@@ -6,6 +6,20 @@
       "path": "astro",
       "options": [
         {
+          "id": "styles",
+          "name": "Styles",
+          "path": "styles",
+          "optional": true,
+          "multiple": true,
+          "options": [
+            {
+              "id": "tailwind",
+              "name": "TailwindCSS",
+              "path": "tailwind"
+            }
+          ]
+        },
+        {
           "id": "ui-frameworks",
           "name": "Official | UI Frameworks",
           "path": "ui",

@@ -1,0 +1,10 @@
+{
+  "imports": [
+    "import tailwindcss from '@tailwindcss/vite';"
+  ],
+  "config": {
+    "vite": {
+      "plugins": [{ "$expr": "tailwindcss()" }]
+    }
+  }
+}
