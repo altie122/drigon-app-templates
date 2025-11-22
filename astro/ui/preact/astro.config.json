@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import preact from '@astrojs/preact';"
+  ],
+  "config": {
+    "integrations": ["preact()"]
+  }
+}

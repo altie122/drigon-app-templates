@@ -1,0 +1,12 @@
+{
+  "comments": [
+    "// @ts-check",
+    "// https://astro.build/config"
+  ],
+  "imports": [
+    "import { defineConfig } from 'astro/config';"
+  ],
+  "config": {
+    "integrations": []
+  }
+}

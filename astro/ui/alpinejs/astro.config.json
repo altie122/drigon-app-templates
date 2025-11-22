@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import alpinejs from '@astrojs/alpinejs';"
+  ],
+  "config": {
+    "integrations": ["alpinejs()"]
+  }
+}

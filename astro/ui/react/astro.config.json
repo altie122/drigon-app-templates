@@ -1,0 +1,8 @@
+{
+  "imports": [
+    "import react from '@astrojs/react';"
+  ],
+  "config": {
+    "integrations": ["react()"]
+  }
+}
